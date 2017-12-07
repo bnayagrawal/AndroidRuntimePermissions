@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.bnayagrawal.android.androidruntimepermissions.MainActivity">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dividerLight">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/white"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:src="@drawable/ic_date_range_black_24dp"
+                android:tint="@color/iconTint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Read calender"
+                android:textColor="@android:color/black" />
+
+            <Switch
+                android:id="@+id/switch_read_calendar"
+                android:layout_column="2"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/white"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:src="@drawable/ic_photo_camera_black_24dp"
+                android:tint="@color/iconTint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Use camera"
+                android:textColor="@android:color/black" />
+
+            <Switch
+                android:id="@+id/switch_camera"
+                android:layout_column="2"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/white"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:src="@drawable/ic_contacts_black_24dp"
+                android:tint="@color/iconTint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Read contacts"
+                android:textColor="@android:color/black" />
+
+            <Switch
+                android:id="@+id/switch_read_contacts"
+                android:layout_column="2"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/white"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:src="@drawable/ic_location_on_black_24dp"
+                android:tint="@color/iconTint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Access fine location"
+                android:textColor="@android:color/black" />
+
+            <Switch
+                android:id="@+id/switch_access_fine_location"
+                android:layout_column="2"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/white"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:src="@drawable/ic_phone_black_24dp"
+                android:tint="@color/iconTint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Read call log"
+                android:textColor="@android:color/black" />
+
+            <Switch
+                android:id="@+id/switch_read_call_log"
+                android:layout_column="2"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:background="@android:color/white"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:paddingRight="16dp"
+                android:src="@drawable/ic_message_black_24dp"
+                android:tint="@color/iconTint" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Read SMS"
+                android:textColor="@android:color/black" />
+
+            <Switch
+                android:id="@+id/switch_read_sms"
+                android:layout_column="2"
+                android:layout_gravity="center_vertical" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_span="3"
+                android:layout_weight="1"
+                android:text="Turn switch on to ask a specific permission. If the switch is on then permission is granted. Turning off switch has no effect."
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
